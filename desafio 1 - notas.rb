@@ -1,7 +1,7 @@
 class Alumno
     def initialize(nombre, *notas)
         @nombre = nombre
-        @notas = notas.map{|notas|}
+        @notas = notas
         
     end
     
@@ -20,4 +20,3 @@ end
 todos_los_alumnos = Alumno.read_file #Creo una variable la cual llama a la clase y despues al metodo de clase
 
 puts todos_los_alumnos
-
